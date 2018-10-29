@@ -1,14 +1,14 @@
-.fab {
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
+.fa{
+    padding: 15px;
+    font-size: 60px;
+    width: 60px;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
     background: #371058;
-    color: white;
-    display: flex;
-    justify-content: center;
+    color: white;  
+    margin-left: 10px; 
+    margin-right: 10px;  
 }
 h1{
 	color: #371058;
