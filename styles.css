@@ -1,4 +1,4 @@
-.fa {
+.fab {
     padding: 20px;
     font-size: 30px;
     width: 30px;
@@ -7,6 +7,8 @@
     border-radius: 50%;
     background: #371058;
     color: white;
+    display: flex;
+    justify-content: center;
 }
 h1{
 	color: #371058;
