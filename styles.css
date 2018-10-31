@@ -13,8 +13,6 @@ h1{
     margin-left: 10px; 
     margin-right: 10px;  
 }
-#profile-long{
-	background-image: url(/files/Profile_Full_Length);
-	background-size: contain;
+#first-bar{
+    margin-bottom: 0px;
 }
-
