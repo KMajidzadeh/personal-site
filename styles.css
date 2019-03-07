@@ -1,5 +1,9 @@
-h1{
+#first-bar h1{
 	color: #371058;
+}
+#first-bar p{
+    padding-left: 10%;
+    padding-right: 10%;
 }
 .fa{
     padding: 15px;
@@ -11,8 +15,49 @@ h1{
     background: #371058;
     color: white;  
     margin-left: 10px; 
-    margin-right: 10px;  
+    margin-right: 10px;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .75s;  
+}
+.fa:hover{
+    background: white;
+    color: #371058;
+    text-decoration: none;
+    transform: scale(0.95);
 }
 #first-bar{
     margin-bottom: 0px;
+    padding-right: 30px; 
+    padding-left: 30px;
+}
+.row-eq-height img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.row-eq-height{
+    display: flex;
+}
+#professional-photo{
+    flex: calc(2309/1550);
+    padding: 0px;
+}
+.right-text{
+    flex: 1;
+    height: auto;
+    padding: 0px;
+}
+img.media-object{
+    display: block;
+    width: 80px;
+    height: 80px;
+} 
+.emphasis-slider{
+    background-color: #371058;
+    color: lightgrey;
+    padding: 10%;
+    padding-top:2%;
+    padding-bottom: 6%;
 }
