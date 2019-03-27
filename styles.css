@@ -1,3 +1,11 @@
+:root{
+    --accent: #83AA51;
+    --dark-background: #371058;
+    --light-background: lightgrey;
+    --light-text: whitesmoke;
+    --bright-text: #7A256D;
+    --dark-text: #24093E;
+}
 #first-bar h1{
 	color: #371058;
 }
